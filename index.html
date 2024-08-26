@@ -11,14 +11,19 @@
     <!-- daisyUI CDN -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://kit.fontawesome.com/378f4ba159.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/877d2cecdc.js" crossorigin="anonymous"></script>
     <script>
         tailwind.config = {
           theme: {
             extend: {
               colors: {
                 green: '#abef5f',
-                boldfont:'#1C1C1C'
+                lightgreen:'#d4f6ae',
+                boldfont:'#1C1C1C',
+                bg:'#f4f4f4',
+                footerng:'#1C1C1C',
+                Plite:'#737373',
+                Pdark:'#E9E9E9'
               }
             }
           }
@@ -59,7 +64,7 @@
               <li><a>Contact Us</a></li>
             </ul>
           </div>
-          <div class="">
+          <div>
           <i class="fa-solid fa-arrow-right transform -rotate-45 bg-green rounded-full p-1 text-boldfont"></i>
           <a class=" text-xl font-extrabold">Rinterio</a>
         </div>
@@ -87,14 +92,59 @@
       </div>
    </nav>
 <!-- second part -->
- <div "> 
-    <div class="flex justify-center">
+ <div class="pb-20"> 
+    <div class="flex justify-center gap-4 ">
 <img src="./assets/banner.png" alt="">
     </div>
     <div class="text-center mx-[135px]">
 <h1 class="font-extrabold text-[64px]">A barn house of this design has a striking appearance</h1>
 <p class="px-8">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal <br> accents, and large windows that flood the space with natural light.</p>
     </div>
+    <div class="flex justify-center">
+    <button class="btn bg-lightgreen rounded-3xl">
+        Book Consult
+       
+        <i class="fa-solid fa-arrow-right transform -rotate-45 bg-green rounded-full p-2 text-boldfont"></i>
+      
+      </button>
+    </div>
  </div>
+ <!-- about us section -->
+  <div class="bg-bg pt-[100px]">
+  <div class="flex mx-[135px] justify-center ">
+    <div class="space-y-5 w-2/4">
+    <button class="btn  rounded-3xl bg-white">
+        <i class="fa-solid fa-arrow-right"></i>
+        About us</button>
+<h1 class="font-bold text-[40px]">We design thoughtful,<br>liveable spaces</h1>
+<p>The barn house captivates with its blend of rustic charm and 
+    modern sophistication, featuring weathered wood, sleek metal accents.</p>
+
+    <div class="flex bg-white rounded-2xl p-1.5 gap-2.5">
+<div><img src="./assets/commercial.png" alt=""></div>
+<div>
+<h2 class="font-bold">Commercial</h2>
+<p>The barn house captivates with its blend <br>of rustic charm and modern.</p>
+   </div>
+    </div>
+
+
+    <div class="flex bg-white rounded-2xl p-1.5 gap-2.5">
+        <div><img src="./assets/residential.png" alt=""></div>
+        <div>
+        <h2 class="font-bold">Residential</h2>
+        <p>The barn house captivates with its blend <br>of rustic charm and modern.</p>
+
+           </div>
+            </div>
+
+
+    </div>
+    <div>
+        <img src="/assets/Rectangle.png" alt="">
+    </div>
+    
+  </div>
+
 </body>
 </html>
