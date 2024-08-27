@@ -35,7 +35,7 @@
     }
 </style>
 </head>
-<body class="Manrope">
+<body class="Manrope max-w-7xl mx-auto">
    <nav>
     <div class="navbar bg-base-100 ">
         <div class="navbar-start">
@@ -82,7 +82,7 @@
         <div class="gap-2">
         <i class="fa-solid fa-magnifying-glass bg-white rounded-full"></i>
         <i class="fa-solid fa-cart-shopping  bg-white rounded-full"></i>
-        <button class="btn bg-green rounded-3xl">
+        <button class="btn bg-green rounded-3xl border-none">
             Book Consult
            
             <i class="fa-solid fa-arrow-right transform -rotate-45 bg-boldfont rounded-full p-2 text-white"></i>
@@ -101,8 +101,8 @@
 <p class="px-8">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal <br> accents, and large windows that flood the space with natural light.</p>
     </div>
     <div class="flex justify-center">
-    <button class="btn bg-lightgreen rounded-3xl">
-        Book Consult
+    <button class="btn bg-lightgreen rounded-3xl border-none">
+        View Details
        
         <i class="fa-solid fa-arrow-right transform -rotate-45 bg-green rounded-full p-2 text-boldfont"></i>
       
@@ -113,7 +113,7 @@
   <div class="bg-bg pt-[100px]">
   <div class="flex mx-[135px] justify-center ">
     <div class="space-y-5 w-2/4">
-    <button class="btn  rounded-3xl bg-white">
+    <button class="btn  rounded-3xl bg-white border-none">
         <i class="fa-solid fa-arrow-right"></i>
         About us</button>
 <h1 class="font-bold text-[40px]">We design thoughtful,<br>liveable spaces</h1>
@@ -175,7 +175,7 @@
 <!-- work process -->
 <div class="flex flex-col items-center mt-8 gap-8 pb-20">
     <div>
-    <button class="btn rounded-3xl bg-white">
+    <button class="btn rounded-3xl bg-white border-none">
         <i class="fa-solid fa-arrow-right"></i>
         How we works</button>
         </div>
@@ -187,22 +187,22 @@
     </div>
     <div class="flex gap-16">
 <div class="bg-rose-200 p-[24px] rounded-lg h-[220x] w-[225px]">
-    <i class="fa-regular fa-lightbulb text-2xl"></i>
+    <img src="./assets/concept.png" alt="">
     <h1 class="text-xl font-bold">Concept</h1>
     <p>The barn house captivates with its blend of rustic charm and modern.</p>
 </div>
 <div class="bg-yellow-200 p-[24px] rounded-lg h-[220x] w-[225px]">
-    <i class="fa-regular fa-lightbulb text-2xl"></i>
+   <img src="./assets/flow-chart.png" alt="">
     <h1 class="text-xl font-bold">Design Process</h1>
     <p>The barn house captivates with its blend of rustic charm and modern.</p>
 </div>
 <div class="bg-lime-200 p-[24px] rounded-lg h-[220x] w-[225px]">
-    <i class="fa-regular fa-eye text-2xl"></i>
+<img src="./assets/vision.png" alt="">
     <h1 class="text-xl font-bold">Supervision</h1>
     <p>The barn house captivates with its blend of rustic charm and modern.</p>
 </div>
 <div class="bg-blue-200 p-[24px] rounded-lg h-[220x] w-[225px]">
-    <i class="fa-solid fa-calculator text-2xl"></i>
+   <img src="./assets/budget-planning.png" alt="">
     <h1 class="text-xl font-bold">Budget Planning</h1>
     <p class>The barn house captivates with its blend of rustic charm and modern.</p>
 </div>
@@ -234,6 +234,51 @@
   </div>
 </div>
 </div>
+<!-- form section -->
+
+<div class="bg-[url('./assets/bg.jpg')] bg-cover bg-center h-[600px]   pt-4 mt-1 mb-1">
+    <div class="flex flex-col items-center">
+    <button class="btn rounded-3xl bg-green bg-opacity-20 border-none">
+        <i class="fa-solid fa-arrow-right"></i>
+        Let’s Connect</button>
+    </div>
+    <div class="flex flex-col items-center text justify-center mx-[135px]">
+   <div class="text-center">
+    <h1 class="font-extrabold text-3xl">Let’s Discuss Next Project</h1>
+    <p>The barn house captivates with its blend of rustic charm and modern sophistication,<br>
+        featuring weathered wood, sleek metal accents.</p>
+   </div>
+   <div class="p-8 w-full max-w-2xl">
+    <form action="#">
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-6">
+            <div>
+                <input type="text" id="first-name" placeholder="First Name*" class="mt-1 p-3 w-full rounded-full border-gray-300 focus:ring-2 focus:ring-gray-400 focus:outline-none">
+            </div>
+            <div>
+                <input type="text" id="last-name" placeholder="Last Name*" class="mt-1 p-3 w-full rounded-full border-gray-300 focus:ring-2 focus:ring-gray-400 focus:outline-none">
+            </div>
+            <div>
+                <input type="text" id="phone-number" placeholder="Phone Number*" class="mt-1 p-3 w-full rounded-full border-gray-300 focus:ring-2 focus:ring-gray-400 focus:outline-none">
+            </div>
+            <div>
+                <input type="email" id="email" placeholder="Email Number*" class="mt-1 p-3 w-full rounded-full border-gray-300 focus:ring-2 focus:ring-gray-400 focus:outline-none">
+            </div>
+        </div>
+        <div class="mb-6">
+            <textarea id="message" placeholder="Write your message here" rows="5" class="mt-1 p-3 w-full rounded-lg border-gray-300 focus:ring-2 focus:ring-gray-400 focus:outline-none"></textarea>
+        </div>
+        
+        <button class="btn bg-green rounded-3xl px-60 border-none">
+            Send Mail
+           
+            <i class="fa-solid fa-arrow-right transform -rotate-45 bg-boldfont rounded-full p-2 text-white"></i>
+          
+          </button>
+    
+    </form>
+</div>
+</div>
+  </div>
 <!-- footer -->
 <footer class="footer footer-center bg-boldfont text-base-content rounded p-10 gap-6 footerbg">
     <div class="flex">
@@ -251,7 +296,7 @@
       <a class="link link-hover">Contact Us</a>
     </nav>
     <div class="flex justify-center">
-    <button class="btn bg-green rounded-3xl">
+    <button class="btn bg-green rounded-3xl border-none">
         Book Consult
        
         <i class="fa-solid fa-arrow-right transform -rotate-45 bg-boldfont rounded-full p-2 text-boldfont text-white"></i>
